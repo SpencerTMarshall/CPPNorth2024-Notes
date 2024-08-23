@@ -6,7 +6,7 @@ Ashley Roll
 			- Compile-Time known constant (non-zero) put in .data (or .rodata)
 		- Zero
 			- Specifically for zeros (nullptr) put into .bss
-	- Dynamic Initialisation
+	- Dynamic Initialization
 		- Put into .bss
 		- There are Unordered, Partially Ordered, and Ordered members of this group
 		- Avoid this

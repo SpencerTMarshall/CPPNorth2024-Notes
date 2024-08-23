@@ -14,4 +14,4 @@ Andreas Fertig
 	- Padding will add "space" to fill types to maintain alignment for erasing and probably some other purposes
 		- Can present an issue if alignment cannot be maintained (good to check ?)
 	- Can catch undefined behaviour through the object lifetime filter
-	- Parantheses don't give lifetime extensions
+	- Parentheses don't give lifetime extensions
