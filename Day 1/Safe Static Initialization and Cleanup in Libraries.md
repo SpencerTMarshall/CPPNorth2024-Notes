@@ -1,0 +1,21 @@
+Ashley Roll
+
+- Phases of Static Initialization
+	- Static Initialization
+		- Constant
+			- Compile-Time known constant (non-zero) put in .data (or .rodata)
+		- Zero
+			- Specifically for zeros (nullptr) put into .bss
+	- Dynamic Initialisation
+		- Put into .bss
+		- There are Unordered, Partially Ordered, and Ordered members of this group
+		- Avoid this
+	- Static Local Variables
+	- Compiler implementation
+		- Dynamic initialization is very complicated
+			- Compilers will create a function to check the value of the variable during the runtime to check if it has been initialized.
+	- Common Patterns
+		- Meyers' Singleton
+		- Nifty Counter
+	- You can use a lot of these ways (except dynamic initialization) to ensure safe initialization for libraries
+		- Pros + Cons for each method
